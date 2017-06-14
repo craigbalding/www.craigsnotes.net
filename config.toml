@@ -1,0 +1,52 @@
+baseURL = "/"
+title = "Craig's Notes"
+theme = "minimo"
+
+googleAnalytics = ""
+Paginate = 3
+
+[params]
+  description = "Notes and memory joggers with a focus on cyber security, tech, tools and other tasty nuggets."
+  dateFormat = "2006, Jan 2"
+  copyrightOwner = "Craig Balding"
+  copyrightStartYear = "2014"
+  hideSingleNavigation = false
+
+[params.opengraph]
+  [params.opengraph.facebook]
+    admins = ""
+    appid = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[social]
+  facebook = ""
+
+[author]
+  name = "Craig Balding"
+
+[author.social]
+  # facebook = "MunifTanjim"
+  github = "craigbalding"
+  twitter = "craigbalding"
+
+[permalinks]
+  page = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  weight = -70
+  identifier = "home"
+  url = "/"
+
+# Language Configuration
+defaultContentLanguage = "en"
+
+[languages]
+  # edit this block for your own language
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 1
